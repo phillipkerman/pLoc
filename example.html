@@ -1,0 +1,30 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+
+  <input type='text' id='inputText' value='Enter Text Here' style="width:300;height:200" />
+  <input type='button' onclick='runConversion()' value='Run Conversion'/>
+  <p id="outputText">Results will appear here</p>
+
+ 
+   <script type="text/javascript">
+
+      function runConversion(){
+        //get their input
+        var input = document.getElementById('inputText').value;
+        //run the pseudo-loc code:
+        var result = pLoc.toPseudo(input);
+        //put text on screen:
+        document.getElementById('outputText').innerHTML = result;
+      }
+
+   </script>
+
+   <script type="text/javascript" src='pLoc.js'></script>
+ 
+
+
+  </body>
+</html>
