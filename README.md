@@ -1,4 +1,4 @@
-[](img/pseudo_loc_icon.png)
+![](img/pseudo_loc_icon.png)
 
 pLoc
 ====
