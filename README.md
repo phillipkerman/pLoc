@@ -1,6 +1,7 @@
-pLoc
-====
+[](img/pseudo_loc_icon.png)
 
+pLoc
+===
 A simple Pseudo-Localizing script 
 
 Usage:
